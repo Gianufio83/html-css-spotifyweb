@@ -150,9 +150,10 @@ body {
   height: 40px;
   background-color: #b3b3b3;
   margin-left: 10px;
+  line-height: 40px;
 }
 .btn_big:hover {
-  color:white;
+  background-color: white;
 }
 .bottone  .btn_big i {
   position: absolute;
@@ -163,7 +164,7 @@ body {
   font-size: 30px;
 }
 .crea_play {
- vertical-align:middle;
+ vertical-align: top;
  margin-left: 5px;
 }
 .playlist_name li {

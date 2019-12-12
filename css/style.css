@@ -271,6 +271,9 @@ body {
 .scelte_interne li:first-child {
   border-bottom: 2px solid green;
 }
+.flex-container li:hover {
+  color:white;
+}
 /* .top_box {
   position: relative;
 

@@ -6,6 +6,8 @@
 
 body {
   background-color: black;
+  font-size: 14px;
+  color: #b3b3b3;
 }
 
 .wrapper {
@@ -77,22 +79,130 @@ body {
   justify-content: space-between;
   width: 320px;
   height: 100%;
-  background: blue;
+  background: black;
 }
+/* main-nav-header */
 .main-nav-header {
-  background-color: purple;
+  background-color: black;
 }
+.logo_spotify {
+  width: 50%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.home {
+  width: 8%;
+  margin-left: 10px;
+}
+.search {
+  width: 8%;
+  margin-left: 10px;
+}
+.libreria {
+  width: 8%;
+  margin-left: 10px;
+}
+.lista_cerca a {
+  line-height: 30px;
+}
+.selezione {
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.selezione:hover {
+  color:white;
+}
+.lista_cerca li:first-child {
+  color:white;
+}
+/* main-nav-main */
+
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-  background-color: lime;
+  background-color: black;
 }
 .playlist {
-
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.bottone {
+  position:relative;
+  display: inline;
+  line-height: 40px;
+  cursor: pointer;
+}
+.bottone:hover {
+  color:white;
+}
+.btn_big {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #b3b3b3;
+  margin-left: 10px;
+}
+.btn_big:hover {
+  color:white;
+}
+.bottone  .btn_big i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 30px;
+}
+.crea_play {
+ vertical-align:middle;
+ margin-left: 5px;
+}
+.playlist_name li {
+  margin-left: 10px;
+  padding: 5px;
+}
+.playlist_name li:hover {
+  color:white;
 }
 .main-nav-footer {
-  background-color: brown;
+  background-color: black;
+}
+.install {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icon_download {
+  margin-right: 10px;
+}
+.install:hover {
+  color:white;
+}
+.divisore {
+  width: 80%;
+  border: 1px solid #b3b3b3;
+}
+.install_two {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.icon_man {
+  width: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 /* main content */
@@ -112,14 +222,25 @@ body {
   width: calc(100% - 320px);
   height: 90px;
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .btn {
   display: inline-block;
-  font-size: 20px;
-  background-color: white;
+  font-size: 15px;
+  color:white;
+  background-color: #121212;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  padding: 5px;
 }
-
+.btn {
+  transition: width 2s linear 1s
+}
+.btn:hover {
+  transform: scale(1);
+}
 /* footer */
 .footer {
   width: 100%;

@@ -420,7 +420,7 @@ body {
   cursor:pointer;
 }
 .line_download {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 40px;
 }
 .line_dowload:before,
@@ -435,8 +435,6 @@ body {
   background: #b3b3b3;
   vertical-align: middle;
 }
-
-
 /* .icon_play_big {
   display: inline-block;
   width: 80px;
@@ -448,6 +446,7 @@ body {
   height: 80px;
 } */
 /* box_right */
+
 .third {
   width: 100%;
   line-height: 20px;

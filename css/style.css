@@ -365,7 +365,7 @@ body {
   padding: 0 15px;
 }
 .box_right {
-  margin-top: 10px;
+  margin-top: 30px;
   padding-left: 15px;
 
 }
@@ -474,11 +474,18 @@ body {
   transition: background-color 2s;
 }
 .line_download:hover:after {
-  background-color: red;
+  background-color: white;
 }
 
 .third {
   width: 100%;
   line-height: 20px;
-  /* text-align: center; */
+  text-align: center;
 }
+.icon_play_small {
+  isplay: inline-block;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 0 10px;
+}
+/* media-query */

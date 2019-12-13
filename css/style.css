@@ -274,6 +274,7 @@ body {
 }
 .recently {
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 .recently p {
   font-size: 20px;
@@ -281,6 +282,55 @@ body {
   color:white;
   margin-bottom: 10px;
 }
+.canzoni {
+  display:flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.canzoni .box_play {
+  flex-basis: calc(100% / 6);
+  /* padding:10px 20px; */
+}
+.box_play {
+  position: relative;
+  width: 100%;
+  margin: 5px 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.box_play img {
+  width: 100%;
+}
+.box_play h3 {
+  text-align: center;
+  color:white;
+  padding-bottom: 5px;
+}
+.box_play p {
+  text-align: center;
+}
+.box_play .box_layover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 186, 159, 0.8);
+}
+.box_play .box_layover i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+/* .box_play:hover .box_layover {
+  display:block;
+} */
+
 /* .top_box {
   position: relative;
 

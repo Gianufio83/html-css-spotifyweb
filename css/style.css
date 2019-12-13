@@ -419,6 +419,13 @@ body {
   color:white;
   cursor:pointer;
 }
+.timing {
+  width: 100%;
+  display: inline-block;
+}
+/* .time {
+  display: inline-block;
+} */
 .line_download {
   font-size: 40px;
   line-height: 40px;

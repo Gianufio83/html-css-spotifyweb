@@ -13,7 +13,7 @@ body {
 .wrapper {
   width: 100%;
   height: 100vh;
-  background-color: red;
+  /* background-color: red; */
 }
 
 /* Fixed */
@@ -84,7 +84,7 @@ body {
 /* main-nav-header */
 .main-nav-header {
   background-color: black;
-  /* border-left: 3px solid green; */
+  line-height: 30px;
 }
 .logo_spotify {
   width: 50%;
@@ -94,20 +94,20 @@ body {
 .home {
   width: 8%;
   margin-left: 10px;
+  vertical-align: middle;
 }
 .search {
   width: 8%;
   margin-left: 10px;
+  vertical-align: middle;
 }
 .libreria {
   width: 8%;
   margin-left: 10px;
+  vertical-align: middle;
 }
 .lista_cerca  li:first-child  {
   border-left: 3px solid green;
-}
-.lista_cerca a {
-  line-height: 30px;
 }
 
 .selezione {
@@ -265,7 +265,7 @@ body {
 .flex-container li {
   flex-basis: calc(100% / 6);
   padding: 10px 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 .scelte_interne li:first-child {
   border-bottom: 2px solid green;
@@ -283,7 +283,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   color:white;
-  paddng-bottom: 20px;
+  padding-bottom: 20px;
 }
 .canzoni {
   display:flex;
@@ -292,13 +292,10 @@ body {
 }
 .canzoni .box_play {
   flex-basis: calc(100% / 6);
-  /* padding:10px 20px; */
 }
 .box_play {
-  /* position: relative; */
   width: 100%;
   margin: 5px 10px;
-  /* overflow: hidden; */
   cursor: pointer;
 }
 .box_play h3 {
@@ -432,8 +429,6 @@ body {
   text-align: center;
   line-height: 40px;
 }
-
-
 .time {
   width: 19%;
   display: inline-block;
@@ -489,3 +484,26 @@ body {
   padding: 0 10px;
 }
 /* media-query */
+@media screen and (max-width:768px): {
+  .canzoni {
+    flex-wrap:wrap;
+  }
+  .canzoni .box_play {
+    flex-basis: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width:992px): {
+  .flex-container {
+    flex-wrap:wrap;
+  }
+  .flex-container li {
+    flex-basis: calc(100% / 5);
+  }
+  .canzoni {
+    flex-wrap:wrap;
+  }
+  .canzoni .box_play {
+    flex-basis: calc(100% / 4);
+  }
+}

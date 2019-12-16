@@ -1,3 +1,3 @@
 // document.writeln("Hello World!");
 // alert("Hello!");
-.document.getElementsById('music').innerHTML="Hardrock";
+document.getElementById('music').innerHTML="Hello world!";
